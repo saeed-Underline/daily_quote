@@ -37,10 +37,10 @@ def main():
     client = genai.Client(api_key=gemini_api_key)
 
     prompt = (
-        "Give me:\n"
-        "1) One short daily quote (max 140 chars)\n"
-        "2) One-sentence meaning\n"
-        "3) One small action for today\n"
+        "Tell me answer for three questions separated in different lines:\n"
+        "1- tell me something intresting that is not possible but in the normal people mind they think it's not a tough thing\n"
+        "2- give me a useful psychological information\n"
+        "3- give me a Persian famous poem with the name of the poet\n"
         "Keep it fresh and non-repetitive."
     )
 
@@ -70,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
