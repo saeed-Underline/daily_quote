@@ -40,7 +40,8 @@ def main():
         "Tell me answer for three questions separated in different lines:\n"
         "1- tell me something intresting that is not possible but in the normal people mind they think it's not a tough thing\n"
         "2- give me a useful psychological information\n"
-        "3- give me a Persian famous poem with the name of the poet\n"
+        "3- give me a Persian lesson famous poem with the name of the poet\n"
+        "4- give me the quote of the day\n"
         "Keep it fresh and non-repetitive."
     )
 
