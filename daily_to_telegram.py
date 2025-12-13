@@ -2,7 +2,7 @@ import json
 import os
 import sys
 import requests
-import openai from OpenAI
+from openai import OpenAI
 
 STATE_PATH = "state.json"
 
