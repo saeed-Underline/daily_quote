@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub cron is UTC.
     # 06:00 UTC = 07:00 Berlin (CET, winter). Adjust if you want a different time.
-    - cron: "0 12 * * *"
+    #- cron: "0 12 * * *"
   workflow_dispatch:
 
 permissions:
