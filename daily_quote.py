@@ -92,7 +92,7 @@ def main():
         "2- Give me a useful psychological insight.\n"
         "3- Give me a famous Persian poem (short) and the poet's name.\n"
         "4- Give me the quote of the day.\n"
-        "Keep it fresh and non-repetitive."
+        "Keep it fresh and non-repetitive and also beautiful as a telegram message with emojis."
     )
 
     contents = history + [prompt]
